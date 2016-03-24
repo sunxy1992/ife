@@ -1,0 +1,51 @@
+body{
+	font-family: microsoft yahei,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.frame{
+	background: #eee;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #999;
+	overflow: hidden;
+	zoom: 1;
+}
+.frame .team {
+	background: #fff;
+	width: 200px;
+	border: 1px solid #999;
+	float: left;
+	position: relative;
+}
+.frame .team img{
+	margin: 15px;
+	border: 1px solid #999;
+}
+.frame .team .text{
+	font-size: 18px;
+	position: absolute;
+	top: 15px;
+	left: 120px;
+}
+.frame .member{
+	background: #fff;
+	width: 120px;
+	border: 1px solid #999;
+	float: right;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.frame .member img{
+	margin: 5px;
+	border: 1px solid #999;
+}
+.frame .main{
+	background: #fff;
+	border: 1px solid #999;
+	margin: 0 140px 0 220px;
+}
+.frame .main p{
+	text-indent: 2em;
+}
